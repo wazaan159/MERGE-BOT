@@ -1,0 +1,12 @@
+version: version
+services:
+  worker:
+    build: .
+    environment:
+      API_HASH: $API_HASH
+      BOT_TOKEN: $BOT_TOKEN
+      API_ID: $API_ID
+      OWNER: $OWNER
+      OWNER_USERNAME: $OWNER_USERNAME
+      DATABASE_URL: $DATABASE_URL
+      LOGCHANNEL: $LOGCHANNEL
